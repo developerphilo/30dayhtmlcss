@@ -1,0 +1,33 @@
+.reflection{
+    background-image: url('./wallpaperflare.com_wallpaper\ \(1\).jpg');
+    height: 60vh;
+    width: 80vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    background-position: right bottom;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.reflection::after{
+    background-image: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    content: '';
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    bottom: -101%;
+    transform: rotate(180deg);
+
+}
+.reflection::before{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2), #ffffff 100%, #ffffff);
+    content: '';
+    position: absolute;
+    bottom: -101%;
+    width: inherit;
+    height: inherit;
+    z-index: 100;
+}
