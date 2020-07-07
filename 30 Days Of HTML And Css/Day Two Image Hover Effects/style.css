@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #262626;
+}
+h1{
+    color: lightseagreen;
+    text-align: center;
+    font-weight: 100;
+}
+.imagesect{
+    width: 1280px;
+    min-height: 300px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.imagesect .cont{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.imagesect .cont .image{
+    position: relative;
+    overflow: hidden;
+}
+.imagesect .cont .image img{
+    max-width: 100%;
+    transition: transform 2s;
+    background-size: cover;
+}
+.imagesect .cont:hover .image img{
+    transform: scale(1.2);
+
+}
+.imagesect .cont .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scaleY(0);
+    transition: transform .5s;
+    border-radius: 6px;
+}
+.imagesect .cont:hover .details{
+    transform: scaleY(1);
+}
+.imagesect .cont .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.imagesect .cont .details .content h2{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #ff0;
+}
+.imagesect .cont .details .content p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
