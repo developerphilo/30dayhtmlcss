@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Social Media Icons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mediaicons" onclick="socialToggle();">
+        <span>+</span>
+        <ul>
+            <li>Share on Twitter</li>
+            <li>Share on Facebook</li>
+            <li>Share on Instagram</li>
+            <li>Share on Linkedin</li>
+            <li>Share on Pinterest</li>
+        </ul>
+    </div>
+
+    <script>
+        function socialToggle() {
+            var icon = document.querySelector('.mediaicons');
+            icon.classList.toggle('active')
+            
+        }
+    </script>
+</body>
+</html>
