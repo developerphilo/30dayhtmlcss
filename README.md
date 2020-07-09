@@ -7,5 +7,5 @@
     1. Image Reflection
 2. Day Two
     1. Share social media buttons
-3. Day Two
+3. Day Three
     1. Image Hover Effect
