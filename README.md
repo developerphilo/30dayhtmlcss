@@ -6,4 +6,4 @@
 1. Day One 
     1. Image Reflection
 2. Day Two
-    1. 
+    1. Image Hover Effect
