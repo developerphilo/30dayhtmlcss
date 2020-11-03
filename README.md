@@ -1,4 +1,4 @@
-# THIS IS MY 30 DAYS OF HTML AND CSS
+## THIS IS MY 30 DAYS OF HTML AND CSS
 
 #### Decided to take this challenge to Improve my Front-End Skills
 
