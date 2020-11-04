@@ -20,3 +20,6 @@
 
 5. **Day Five**
    > Omera It Header Design
+
+6. **Day Six**
+   > Loading screen
